@@ -5,7 +5,6 @@ const initialState = {
 };
 
 const whookReducer = (state = initialState, action) => {
-  console.log(action.type);
   switch (action.type) {
     case ADD:
       return { number: state.number + 1 };

@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import { addAction, minusAction } from '../redux/whook/action';
 
 const Whook = (props) => {
+  // Whook means Without hook
   return (
     <>
       <p>Number for click {props.number}</p>
